@@ -11,4 +11,4 @@ class Repository:
         return self.__bone_types
 
     def get_bone_info(self, length, bone_type):
-        return Response(100, "M")
+        return Response("M",100)
